@@ -1,4 +1,4 @@
-Link to the solution: https://github.com/lathamk4/Capstone_MT_20_1/blob/main/Capstone.ipynb
+Link to the solution: https://github.com/lathamk4/FinalCapstoneWithBert/blob/main/CapstonewithBert.ipynb
 
 Dataset & reference: https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions
 
@@ -35,18 +35,19 @@ b) Trasncription length by Medical specialty:
 This plot helps identify which specialties produce longer or more detailed notes, guiding preprocessing and model input length. It also reveals content variability, useful for customizing NLP models per specialty.
 ![2](https://github.com/user-attachments/assets/21427796-18b2-4c34-9efe-c3d078654c7b)
 c) TOP TF-IDF terms by medical specialty plot :
-![3](https://github.com/user-attachments/assets/f47ee9ea-5f73-433d-84c9-5220f262a57f)
+![24_1_TFIDF](https://github.com/user-attachments/assets/c9e49dd5-3ceb-488f-af32-363572f4c3d7)
 
 d) Top 10 most common words per Medical specialty plot:
-![4](https://github.com/user-attachments/assets/c3594832-0fb4-4b4a-b016-8e92f55bb828)
+![24_1_top10words](https://github.com/user-attachments/assets/606f2d07-ae5a-4779-b6f7-78f58a9d33db)
 
 Both the plot helps identifying unique words specific to specialty thereby enhacing the feature extraction and specialty specific text classification
 e) word cloud by transcriptions : 
-![5](https://github.com/user-attachments/assets/9362656c-d89c-49e8-ac90-d35e78af249c)
+![24_1_wordcloud](https://github.com/user-attachments/assets/f87c4ce0-8e02-4041-8533-d62d42e5eef8)
+
 
 This plot helps visualize most frequent terms among all the specialities and aids in the quick exploratory analysis 
 f) Top 10 Most frequent word specific to specialty 
-![6](https://github.com/user-attachments/assets/3153c211-6db4-41fa-97e8-c99e11c7cb65)
+![24_1_Top10medical](https://github.com/user-attachments/assets/bc9ce2c4-7098-4dc9-8690-4853d1b9fc36)
 
 This plot helps with identifying the specialty-specific language pattern which in turn improve model performance.
 
